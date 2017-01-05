@@ -21,7 +21,9 @@
      <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="BA16-Development" revision="5ce5d890233f3fb4eedbb8c92708f6c4a176b75f" name="meta-advantech-arm-extra" path="sources/meta-advantech-arm-extra"/>
+  <project remote="BA16-Development" revision="5ce5d890233f3fb4eedbb8c92708f6c4a176b75f" name="meta-advantech-arm-extra" path="sources/meta-advantech-arm-extra">
+	   <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
+  </project>	
   <project remote="BA16-Development" revision="b48d06213700f802685a26c492c6d254a541f31a" name="meta-BA16-GEChina-extra" path="sources/meta-BA16-GEChina-extra"/>
   <project remote="freescale" revision="3dfb82fc7e703eae9891b3ffda0e9393701f2396" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="a165068f8a0d1cf29aabe4b4053f28be1c2aa492" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
@@ -30,8 +32,7 @@
   <project remote="QT5" revision="ccae79be69c5268df3b47e4e14cea0591c39a531" name="meta-qt5" path="sources/meta-qt5" />
 
   <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="krogoth_4.1.15-2.0.1" >
-     <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
-     <copyfile src="imx/README" dest="README-IMXBSP"/>
+       <copyfile src="imx/README" dest="README-IMXBSP"/>
   </project>
 
 </manifest>
