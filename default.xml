@@ -21,7 +21,7 @@
      <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="BA16-Development" revision="5ce5d890233f3fb4eedbb8c92708f6c4a176b75f" name="meta-advantech-arm-extra" path="sources/meta-advantech-arm-extra">
+  <project remote="BA16-Development" revision="49a81e5725612de8546c9d8980de3d27651d9e6d" name="meta-advantech-arm-extra" path="sources/meta-advantech-arm-extra">
 	   <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
   </project>	
   <project remote="BA16-Development" revision="b48d06213700f802685a26c492c6d254a541f31a" name="meta-BA16-GEChina-extra" path="sources/meta-BA16-GEChina-extra"/>
